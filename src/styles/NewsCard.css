@@ -1,0 +1,15 @@
+.card {
+    @apply bg-white rounded-md overflow-hidden shadow-md p-6 mb-4 relative;
+}
+
+.title {
+    @apply text-xl font-bold text-gray-800 hover:text-blue-500 mb-2 block;
+}
+
+.metadata {
+    @apply text-gray-500 mb-2;
+}
+
+.source {
+    @apply text-blue-500 absolute bottom-0 left-0 mb-2 ml-1;
+}

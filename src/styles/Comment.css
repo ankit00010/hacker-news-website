@@ -1,0 +1,27 @@
+.container {
+    @apply bg-gray-100 p-4 rounded-md mb-4 relative;
+}
+
+.rootComment {
+    @apply ml-4;
+}
+
+.header {
+    @apply flex justify-between items-center mb-2;
+}
+
+.author {
+    @apply font-bold;
+}
+
+.toggleRepliesBtn {
+    @apply text-gray-600 cursor-pointer;
+}
+
+.text {
+    @apply text-gray-800;
+}
+
+.repliesContainer {
+    @apply mt-4 ml-4;
+}

@@ -1,0 +1,11 @@
+.container {
+    @apply mx-auto mt-8 bg-gray-700 px-10 py-5 rounded-md;
+}
+
+.title {
+    @apply text-3xl font-bold mb-4;
+}
+
+.grid-container {
+    @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8;
+}
