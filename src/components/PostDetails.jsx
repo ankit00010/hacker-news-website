@@ -44,6 +44,7 @@ const PostDetails = () => {
                                         {' | Source: '}
                                         <a href={postDetails.url} target="_blank" rel="noopener noreferrer">
                                             {extractDomain(postDetails.url)}
+
                                         </a>
                                     </span>
                                 )}
