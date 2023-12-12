@@ -12,6 +12,7 @@ const PageLayout = () => {
             <SearchBar />
             <div className="main">
                 <Outlet />
+
             </div>
             <Footer className="footer" />
         </>
