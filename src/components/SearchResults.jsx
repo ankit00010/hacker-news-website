@@ -14,7 +14,6 @@ const SearchResults = () => {
 
     useEffect(() => {
         setLoading(true);
-        // Initial load with an empty query
         dispatch(getAllData(''));
     }, [dispatch]);
 
@@ -27,16 +26,14 @@ const SearchResults = () => {
     const handlePageChange = (newPage) => {
         setCurrentPage(newPage);
         setLoading(true);
-        // Use the combined query and page approach
         dispatch(getPaginationData({ query: '', page: newPage }));
     };
 
     const renderPaginationButtons = () => {
         const buttons = [];
-        const totalPagesToShow = 5; // Adjust the number of buttons to display
-        const pagesPerSet = 5; // Adjust the number of pages per set
+        const totalPagesToShow = 5;
+        const pagesPerSet = 5;
 
-        // Previous button (conditionally included)
         if (currentPage > 1) {
             buttons.push(
                 <button
