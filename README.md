@@ -13,8 +13,8 @@ Make sure you have Node.js and npm installed on your machine.
 ### Installation
 
 1. Clone the repository:
-
-      git clone <repository-url>
+[
+      git clone <repository-url>](https://github.com/ankit00010/hacker-news-website.git)
       cd client 
 
 
