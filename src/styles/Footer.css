@@ -11,13 +11,14 @@
     box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.2);
     z-index: 1;
     text-align: center;
-    /* Center the content horizontally */
 }
 
 .footer-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .footer-description {
@@ -45,5 +46,4 @@
 
 .main-content {
     margin-bottom: 80px;
-    /* Adjust the margin as needed for spacing */
 }

@@ -7,13 +7,6 @@ const store = configureStore({
         search: searchReducer,
         postDetails: postDetailsReducer,
     },
-    middleware: (getDefaultMiddleware) => {
-        if (process.env.NODE_ENV !== 'production') {
-            return getDefaultMiddleware({
-                serializableCheck: false,
-            });
-        }
-        return getDefaultMiddleware();
-    },
+
 });
 export default store;

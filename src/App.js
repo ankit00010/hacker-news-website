@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import PageLayout from './components/PageLayout';
 import SearchResults from './components/SearchResults';
 import PostDetails from './components/PostDetails';
-
 function App() {
   return (
     <div className='bg-black-500'>
