@@ -6,7 +6,7 @@ import axios from 'axios';
 export const getPostDetails = createAsyncThunk('postDetails/getPostDetails', async (objectID) => {
     try {
         // Making an API call to fetch post details based on the objectID
-        const response = await axios.get(`http://hn.algolia.com/api/v1/items/${objectID}`);
+        const response = await axios.get(`https://hn.algolia.com/api/v1/items/${objectID}`);
         return response.data;
     } catch (error) {
         // Handling errors during the API call

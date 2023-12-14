@@ -6,7 +6,7 @@ import axios from 'axios';
 export const getAllData = createAsyncThunk('search/getAllData', async (query) => {
     try {
         // Making an API call to fetch data based on the provided query
-        const response = await axios.get(`http://hn.algolia.com/api/v1/search?query=${query}`);
+        const response = await axios.get(`https://hn.algolia.com/api/v1/search?query=${query}`);
 
         // Extracting relevant information from the API response and returning a formatted object
         return {
@@ -32,7 +32,7 @@ export const getAllData = createAsyncThunk('search/getAllData', async (query) =>
 export const getPaginationData = createAsyncThunk('search/getPaginationData', async ({ query = '', page }) => {
     try {
         // Making an API call to fetch paginated data based on the provided query and page
-        const response = await axios.get(`http://hn.algolia.com/api/v1/search?query=${query}&page=${page}`);
+        const response = await axios.get(`https://hn.algolia.com/api/v1/search?query=${query}&page=${page}`);
 
         // Extracting relevant information from the API response and returning a formatted object
         return {
