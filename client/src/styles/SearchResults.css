@@ -1,11 +1,17 @@
+/* Styles for the container */
 .container {
+    /* Center the container horizontally, add top margin, set background color, padding, and rounded corners */
     @apply mx-auto mt-8 bg-gray-200 px-10 py-5 rounded-md;
 }
 
+/* Styles for the title */
 .title {
+    /* Larger text size, bold font weight, and bottom margin */
     @apply text-3xl font-bold mb-4;
 }
 
+/* Styles for the grid container */
 .grid-container {
+    /* Grid layout with 1 column (default), 2 columns on small screens, 3 columns on large screens, and 4 columns on extra-large screens; set gap between items */
     @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8;
 }

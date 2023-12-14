@@ -1,27 +1,45 @@
+/* Styles for a container element */
 .container {
+    /* Apply background color, padding, rounded corners, margin, and relative positioning */
     @apply bg-gray-100 p-4 rounded-md mb-4 relative;
 }
 
+/* Styles for the root comment */
 .rootComment {
+    /* Apply left margin */
     @apply ml-4;
 }
 
+/* Styles for the header of a comment */
 .header {
+    /* Apply flex layout, justify content space-between, align items at the center, and bottom margin */
     @apply flex justify-between items-center mb-2;
 }
 
+/* Styles for the author of a comment */
 .author {
+    @apply text-gray-900;
+
+    font-family: 'Roboto', 'Open Sans', 'Source Sans Pro', sans-serif;
     @apply font-bold;
 }
 
+/* Styles for a button to toggle replies */
 .toggleRepliesBtn {
+    /* Apply text color, and cursor pointer */
     @apply text-gray-600 cursor-pointer;
 }
 
+/* Styles for the text content of a comment */
 .text {
-    @apply text-gray-800;
+    @apply text-gray-900;
+
+    font-family: "Times New Roman", "Poppins"
+        , sans-serif;
 }
 
+/* Styles for a container of replies */
 .repliesContainer {
+    /* Apply top margin and left margin */
     @apply mt-4 ml-4;
 }

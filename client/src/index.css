@@ -1,3 +1,12 @@
+/* This section includes the base styles provided by Tailwind CSS.
+   Base styles ensure consistent styling for standard HTML elements across browsers. */
 @tailwind base;
+
+/* This section includes pre-defined styles for various components provided by Tailwind CSS.
+      Components may include styles for buttons, forms, and other UI elements. */
 @tailwind components;
+
+/* This section includes utility classes provided by Tailwind CSS.
+      Utility classes are small, single-purpose classes that can be applied directly in HTML to style elements.
+      Examples include classes for margins, padding, text alignment, etc. */
 @tailwind utilities;

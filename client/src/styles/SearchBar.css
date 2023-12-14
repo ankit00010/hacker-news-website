@@ -1,35 +1,66 @@
+/* Styles for the search bar */
 .search-bar {
     @apply bg-orange-700 text-white flex flex-col md:flex-row justify-between items-center py-3 px-5;
 }
 
+/* Styles for the logo container */
 .logo-container {
     @apply flex items-center space-x-2 mb-2 md:mb-0;
 }
 
+/* Styles for the logo */
 .logo {
     @apply bg-white text-orange-700 rounded-md p-1;
 }
 
+/* Styles for the logo text */
 .logo-text {
     @apply font-bold text-lg;
 }
 
+/* Styles for navigation links */
 .nav-links {
     @apply flex items-center text-sm space-x-4 md:space-x-6;
 }
 
+/* Styles for individual navigation links */
 .nav-link {
     @apply hover:text-gray-300;
 }
 
+/* Styles for the search container */
 .search-container {
     @apply w-full md:w-[390px] border border-gray-500 rounded-full flex items-center space-x-2 mt-2 md:mt-0;
 }
 
+/* Styles for the search icon */
 .search-icon {
     @apply text-gray-500 p-5;
 }
 
+/* Styles for the search input */
 .search-input {
     @apply w-full bg-orange-700 outline-none py-2 px-4 text-sm text-white;
+}
+
+/* Media query for screens with a maximum width of 768px */
+@media (max-width: 768px) {
+    .nav-links {
+        @apply flex items-center text-sm space-x-2;
+    }
+
+    .nav-link {
+        @apply hover:text-gray-300 mx-1;
+    }
+}
+
+/* Media query for screens with a minimum width of 769px */
+@media (min-width: 769px) {
+    .nav-links {
+        @apply flex items-center text-sm space-x-4 md:space-x-6;
+    }
+
+    .nav-link {
+        @apply hover:text-gray-300;
+    }
 }

@@ -1,5 +1,4 @@
-/* Footer.css */
-
+/* Styles for the footer container */
 .footer-container {
     position: relative;
     bottom: 0;
@@ -13,6 +12,7 @@
     text-align: center;
 }
 
+/* Styles for the content within the footer */
 .footer-content {
     display: flex;
     justify-content: space-between;
@@ -21,22 +21,26 @@
     margin: 0 auto;
 }
 
+/* Styles for the footer description */
 .footer-description {
     margin: 0;
 }
 
+/* Styles for spans within the footer description */
 .footer-description span {
     display: block;
     font-size: 18px;
     font-weight: bold;
 }
 
+/* Styles for social handles within the footer */
 .social-handles {
     display: flex;
     justify-content: center;
     align-content: center;
 }
 
+/* Styles for individual social icons within the footer */
 .social-icon {
     margin-right: 10px;
     color: white;
@@ -44,6 +48,7 @@
     font-size: 20px;
 }
 
+/* Additional styling for the main content */
 .main-content {
     margin-bottom: 80px;
 }

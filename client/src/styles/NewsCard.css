@@ -1,15 +1,25 @@
+/* YourComponent.css (Tailwind version) */
+
+/* Styles for the card container */
 .card {
+    /* White background, rounded corners, overflow handling, shadow, padding, margin, and relative positioning */
     @apply bg-white rounded-md overflow-hidden shadow-md p-6 mb-4 relative;
 }
 
+/* Styles for the card title */
 .title {
+    /* Larger text size, bold font weight, gray text color, hover effect with blue text color, margin, and block display */
     @apply text-xl font-bold text-gray-800 hover:text-blue-500 mb-2 block;
 }
 
+/* Styles for metadata */
 .metadata {
+    /* Gray text color and margin */
     @apply text-gray-500 mb-2;
 }
 
+/* Styles for the source link */
 .source {
+    /* Blue text color, absolute positioning at the bottom left, margin, and small left margin */
     @apply text-blue-500 absolute bottom-0 left-0 mb-2 ml-1;
 }

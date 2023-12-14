@@ -1,9 +1,16 @@
+/* YourComponent.css (Tailwind version) */
+
+/* Styles for the main container */
 .main {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+    /* Flex layout with column direction */
+    @apply flex flex-col;
+
+    /* Minimum height to occupy at least the full viewport height */
+    @apply min-h-screen;
 }
 
+/* Styles for the footer */
 .footer {
-    margin-top: auto;
+    /* Margin top set to auto to push the footer to the bottom of the container */
+    @apply mt-auto;
 }
