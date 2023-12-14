@@ -43,8 +43,13 @@
     @apply w-full bg-orange-700 outline-none py-2 px-4 text-sm text-white;
 }
 
-/* Media query for screens with a maximum width of 768px */
+/* Media query for screens with a maximum width of 768px (mobile screens) */
 @media (max-width: 768px) {
+    .search-bar {
+        @apply px-3;
+        /* Adjust padding for better spacing on smaller screens */
+    }
+
     .nav-links {
         @apply flex items-center text-sm space-x-2;
     }
@@ -52,9 +57,26 @@
     .nav-link {
         @apply hover:text-gray-300 mx-1;
     }
+
+    .search-container {
+        @apply w-full md:w-full;
+        /* Full width on mobile screens */
+        @apply mt-4;
+        /* Adjust margin for better spacing on smaller screens */
+    }
+
+    .search-icon {
+        @apply p-3;
+        /* Adjust padding for better spacing on smaller screens */
+    }
+
+    .search-input {
+        @apply py-2 px-3;
+        /* Adjust padding for better spacing on smaller screens */
+    }
 }
 
-/* Media query for screens with a minimum width of 769px */
+/* Media query for screens with a minimum width of 769px (larger screens) */
 @media (min-width: 769px) {
     .nav-links {
         @apply flex items-center text-sm space-x-4 md:space-x-6;

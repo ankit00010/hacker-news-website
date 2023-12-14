@@ -10,3 +10,10 @@
       Utility classes are small, single-purpose classes that can be applied directly in HTML to style elements.
       Examples include classes for margins, padding, text alignment, etc. */
 @tailwind utilities;
+
+
+body {
+      margin: 0;
+      padding: 0;
+
+}
