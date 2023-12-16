@@ -1,6 +1,6 @@
 # Hacker News Search App
 
-This React web application enables users to search for Hacker News posts and explore detailed information about each post.
+This React web application enables users to search for Hacker News posts and explore detailed information about each posts.
 
 ## Getting Started
 
